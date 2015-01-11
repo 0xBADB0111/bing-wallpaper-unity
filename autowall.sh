@@ -1,6 +1,8 @@
 #!/bin/bash
 RES="1366x768" # Your screen resoultion.
 
+sleep 5
+
 cd /tmp
 wget -O "./wallpaper.xml" "http://www.bing.com/HPImageArchive.aspx?format=xml&idx=0&n=1&mkt=en-US" 
 WALLPATH="$(xmllint --xpath 'string(//images/image/url)' ./wallpaper.xml)"
