@@ -7,7 +7,7 @@ Small bash script for changing wallpaper to the bing background.
 * unity
 * bash ;)
 
-Should also work with GNOME Shell, but not tested. Tweet me if it works (@sernick_)
+Should also work with GNOME Shell, but not tested.
 
 #### Installation
 
